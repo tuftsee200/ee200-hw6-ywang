@@ -4,7 +4,7 @@
 
 void lower(char* str)
 {
-    if(str == NULL){
+    if(str == NULL){ 
         return;
     }
   // Fill in this function
