@@ -1,4 +1,12 @@
 # Resources
+https://www.google.com/search?q=tic-tac-toe&sca_esv=571399955&rlz=1C5CHFA_enUS1074US1074&sxsrf=AM9HkKnJffJRzwEt3mB53RueP2WKuROeZw%3A1696629386565&ei=ioIgZcyRIt-s5NoPtYegkAw&ved=0ahUKEwjM_pr_tOKBAxVfFlkFHbUDCMIQ4dUDCBA&uact=5&oq=tic-tac-toe&gs_lp=Egxnd3Mtd2l6LXNlcnAiC3RpYy10YWMtdG9lMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEihV1ClBViaCXABeAGQAQCYAWagAZ0CqgEDMS4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBxAjGLECGCfCAggQABgHGB4YE-IDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp
+
+https://playtictactoe.org/
+
+https://realpython.com/tic-tac-toe-python/
+
+https://www.geeksforgeeks.org/tic-tac-toe-game-in-java/
+
 You should fill in this section with the resources that you used to develop your code.  You don't need to include the teaching staff or the textbook, but you should list anyone you worked with, and any online or paper resources you used.
 
 
