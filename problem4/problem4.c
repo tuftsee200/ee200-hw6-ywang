@@ -1,10 +1,15 @@
-//#include <stddef>
+#include <stddef.h>
 #include "problem4.h"
 #include <string.h>
 
 //find the shortest string of an array, return the pointer
 const char* find_shortest(const char * const * strings, int len)
 {
+    //check whether the strings is NULL before any operation
+    if(!strings){
+        return NULL;
+    }
+
     //assume the first string the shortest one
     const char* shortest = strings[0];
     int minL = 0;
@@ -15,7 +20,7 @@ const char* find_shortest(const char * const * strings, int len)
         minL++;
     }
 
-    //all Null return Null
+    //all Nulls return Null
     if(!shortest)
         return NULL;
 
