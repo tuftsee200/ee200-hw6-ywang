@@ -46,6 +46,18 @@ int main(int argc, char* argv[])
         {'x', ' ', ' '}
     };
 
+    char B8[3][3] = {
+        {'x', ' ', 'o'},
+        {' ', 'o', 'x'},
+        {'o', 'o', 'x'}
+    };
+
+    char B9[3][3] = {
+        {'o', ' ', ' '},
+        {'o', 'x', 'o'},
+        {'x', 'x', 'x'}
+    };
+
     printf("\nthe result of B1 is \"%C\"\n", check_win(B1));
     printf("\nthe result of B2 is \"%C\"\n", check_win(B2));
     printf("\nthe result of B3 is \"%C\"\n", check_win(B3));
@@ -53,6 +65,8 @@ int main(int argc, char* argv[])
     printf("\nthe result of B5 is \"%C\"\n", check_win(B5));
     printf("\nthe result of B6 is \"%C\"\n", check_win(B6));
     printf("\nthe result of B7 is \"%C\"\n", check_win(B7));
+    printf("\nthe result of B8 is \"%C\"\n", check_win(B8));
+    printf("\nthe result of B9 is \"%C\"\n", check_win(B9));
 
 
   // Put anything here that you think is appropriate to test your function
