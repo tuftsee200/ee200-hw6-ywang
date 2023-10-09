@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
     char B1[3][3] = {
-        {'x', 'x', 'x'},
+        {'x', ' ', ' '},
         {'o', 'x', 'o'},
         {'o', 'o', 'x'}
     };
@@ -40,12 +40,19 @@ int main(int argc, char* argv[])
         {'x', 'x', 'o'}
     };
 
-    printf("\nthe result of B1 is %C\n", check_win(B1));
-    printf("\nthe result of B2 is %C\n", check_win(B2));
-    printf("\nthe result of B3 is %C\n", check_win(B3));
-    printf("\nthe result of B4 is %C\n", check_win(B4));
-    printf("\nthe result of B5 is %C\n", check_win(B5));
-    printf("\nthe result of B6 is %C\n", check_win(B6));
+    char B7[3][3] = {
+        {' ', ' ', 'o'},
+        {' ', 'x', ' '},
+        {'x', ' ', ' '}
+    };
+
+    printf("\nthe result of B1 is \"%C\"\n", check_win(B1));
+    printf("\nthe result of B2 is \"%C\"\n", check_win(B2));
+    printf("\nthe result of B3 is \"%C\"\n", check_win(B3));
+    printf("\nthe result of B4 is \"%C\"\n", check_win(B4));
+    printf("\nthe result of B5 is \"%C\"\n", check_win(B5));
+    printf("\nthe result of B6 is \"%C\"\n", check_win(B6));
+    printf("\nthe result of B7 is \"%C\"\n", check_win(B7));
 
 
   // Put anything here that you think is appropriate to test your function

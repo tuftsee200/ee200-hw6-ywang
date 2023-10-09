@@ -18,10 +18,8 @@ char check_win(char board[3][3])
 
     //check various conditions including (space)(cat's game)and(NULL)
 
-    //check and return if  more 'x' or 'o' than would be possible
+    //check and return if more 'x' or 'o' than would be possible
     if(countX - countO > 1 || countO - countX > 1) return '\0';
-    //check and return if the game is still going
-    if(countSpace > 0) return ' ';
     //won conditions
     //column and row
     for(int i = 0; i < 3; i++){
@@ -35,7 +33,11 @@ char check_win(char board[3][3])
         return board[1][1];
     if(board[0][2] == board[1][1] && board[1][1] == board[2][0])
         return board[0][2];
-    //the last condition "no one has won"
+
+    //check and return if the game is still going
+    if(countSpace > 0) return ' ';
+
+    //the last condition that "no one has won"
     return '.';
     
 
